@@ -1,0 +1,8 @@
+
+# better tab completion
+bind "set show-all-if-ambiguous on"
+bind "set completion-ignore-case on"
+
+# disable bell
+bind "set bell-style none"
+
