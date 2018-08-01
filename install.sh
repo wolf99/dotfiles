@@ -8,10 +8,10 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}")" && pwd)"
 git --work-tree="$DOTFILES_DIR" --git-dir="$DOTFILES_DIR/.git" pull origin master
 
 # bunch of symlinks
-ln -sfv "$DOTFILES/.bash_profile" ~
-ln -sfv "$DOTFILES/.inputrc" ~
-ln -sfv "$DOTFILES/.bash_aliases" ~
-ln -sfv "$DOTFILES/.gitconfig" ~
-ln -sfv "$DOTFILES/.nanorc" ~
-ln -sfv "$DOTFILES/.vimrc" ~
+ln -sfv "$DOTFILES_DIR/.bash_profile" ~
+ln -sfv "$DOTFILES_DIR/.inputrc" ~
+ln -sfv "$DOTFILES_DIR/.bash_aliases" ~
+ln -sfv "$DOTFILES_DIR/.gitconfig" ~
+ln -sfv "$DOTFILES_DIR/.nanorc" ~
+ln -sfv "$DOTFILES_DIR/.vimrc" ~
 
