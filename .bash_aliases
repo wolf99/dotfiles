@@ -17,7 +17,7 @@ alias eg="exa --all --long --group --header --git"
 # python 3 is the default
 alias python=python3
 
-# take() function from oh m zsh
+# take() function from oh my zsh
 # github.com/robbyrussell/oh-my-zsh/master/lib/functions.zsh
 function take() {
 	mkdir -p $@ && cd ${@:$#}
