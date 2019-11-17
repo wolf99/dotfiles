@@ -6,3 +6,4 @@ set noeb vb t_vb=
 set belloff=all
 set mouse=a
 set number
+highlight LineNr ctermfg=200

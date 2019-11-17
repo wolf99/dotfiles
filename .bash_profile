@@ -5,5 +5,5 @@ LS_COLORS=$LS_COLORS:'ow=35;40:'
 export LS_COLORS
 
 # add nix binaries in windows file system to path
-export PATH="$PAH:/mnt/c/Users/tobym/OneDrve/Documents/Applications/bin"
+export PATH="$PAH:/mnt/c/Users/tobym/OneDrve/Documents/applications/bin"
 
