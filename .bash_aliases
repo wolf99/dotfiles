@@ -14,8 +14,9 @@ alias ea="exa --all --long --group --header"
 alias et="exa --all --long --group --header --tree --level=2"
 alias eg="exa --all --long --group --header --git"
 
-# python 3 is the default
-alias python=python3
+# make python 3 the default if it is installed
+## Use ~/bin/env_python3 instead as it works for the path also
+# type python3 >/dev/null 2&>1 && alias python=python3
 
 # take() function from oh my zsh
 # github.com/robbyrussell/oh-my-zsh/master/lib/functions.zsh
