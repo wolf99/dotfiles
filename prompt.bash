@@ -25,9 +25,9 @@ local_username="toby"
 
 # symbols
 prompt_symbol="❯"
-prompt_clean_symbol=" "
-prompt_dirty_symbol="☂ "
-#prompt_venv_symbol="☁ "
+prompt_clean_symbol=""
+prompt_dirty_symbol="☂"
+#prompt_venv_symbol="☁"
 
 function prompt_command() {
 	# local or SSH session?
@@ -40,7 +40,6 @@ function prompt_command() {
 		# branch name
 		local branch="$(git symbolic-ref HEAD 2>/dev/null)"
 		branch="${branch##refs/heads/}"
-
 		# working tree status (red when dirty)
 		local dirty=
 		# modified files
@@ -50,9 +49,9 @@ function prompt_command() {
 
 		# format git info
 		if [ -n "$dirty" ]; then
-			git_prompt=" $RED$prompt_dirty_symbol$branch$NOCOLOR"
+			git_prompt="$CYAN[$branch]$prompt_dirty_symbol$NOCOLOR"
 		else
-			git_prompt=" $GREEN$prompt_clean_symbol$branch$NOCOLOR"
+			git_prompt="$CYAN[$branch]$prompt_clean_symbol$NOCOLOR"
 		fi
 	fi
 
@@ -69,10 +68,10 @@ function prompt_command() {
 	[ -n "$user_prompt" ] || [ -n "$host_prompt" ] && login_delimiter=":"
 
 	# format prompt
-	prompt="$user_prompt$host_prompt$login_delimiter$WHITE\w$NOCOLOR$git_prompt"
+	prompt="$user_prompt$host_prompt$login_delimiter$BLUE\w$NOCOLOR$git_prompt"
 	# text (commands) inside \[...\] does not impact line length calculation which fixes strange bug when looking through the history
 	# $? is a status of last command, should be processed every time prompt prints
-	symbol="\`if [ \$? = 0 ]; then echo \[\$CYAN\]; else echo \[\$RED\]; fi\`\$prompt_symbol\[\$NOCOLOR\] "
+	symbol="\`if [ \$? = 0 ]; then echo \[\$CYAN\]; else echo \[\$RED\]; fi\`\[\$WHITE\]\$prompt_symbol\[\$NOCOLOR\] "
 	PS1="$prompt$symbol"
 
 	# multiline command
