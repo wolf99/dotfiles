@@ -9,6 +9,7 @@ alias weeknumber="date +%V"
 alias tiga="tig --all"
 
 # some exa aliases
+alias es="exa"
 alias el="exa --long --group --header"
 alias ea="exa --all --long --group --header"
 alias et="exa --all --long --group --header --tree --level=2"
