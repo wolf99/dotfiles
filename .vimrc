@@ -1,4 +1,4 @@
-"set smartindent
+"set samrtindent
 "set tabstop=4
 "set shiftwidth=4
 "set expandtab
@@ -7,3 +7,4 @@ set belloff=all
 set mouse=a
 set number
 highlight LineNr ctermfg=200
+

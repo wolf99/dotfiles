@@ -1,0 +1,5 @@
+
+#set main-options = --all # not yet supported by ubuntu release version
+
+set line-graphics = utf-8
+set main-view = line-number:yes,interval=1 id:no date:default author:full commit-title:yes,graph,refs,overflow=no
