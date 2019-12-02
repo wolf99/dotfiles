@@ -1,0 +1,14 @@
+[user]
+	email = wol99@users.noreply.github.com
+	name = wolf99
+	signingkey = 1DE3C614650CA6A7
+[core]
+	editor = vim
+        # To use the following line, correct the path and uncomment.
+#	excludesFile = /mnt/c/Users/<USERNAME>/.gitignore
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe
