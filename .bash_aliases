@@ -10,10 +10,10 @@ alias tiga="tig --all"
 
 # some exa aliases
 alias es="exa"
-alias el="exa --long --group --header"
-alias ea="exa --all --long --group --header"
-alias et="exa --all --long --group --header --tree --level=2"
-alias eg="exa --all --long --group --header --git"
+alias el="exa --long --group --header --sort=type --icons"
+alias ea="exa --all --long --group --header --sort=type --icons"
+alias et="exa --all --long --group --header --tree --level=2 --sort=type"
+alias eg="exa --all --long --group --header --git --sort=type --icons"
 
 # make python 3 the default if it is installed
 ## Use ~/bin/env_python3 instead as it works for the path also
