@@ -1,5 +1,20 @@
+# Tig configuration
+#
+# Please see 'man tigrc' for a complete reference.
+# See also: https://github.com/jonas/tig/blob/master/tigrc
 
-#set main-options = --all # not yet supported by ubuntu release version
+# Settings
+# --------
+# Most of these settings can be toggleable, either via the toggle-*
+# actions or via the option menu (bound to `o` by default).
 
-set line-graphics = utf-8
+# View settings
 set main-view = line-number:yes,interval=1 id:no date:default author:full commit-title:yes,graph,refs,overflow=no
+
+# UI display settings
+#set line-graphics = utf-8 # Gives sold dots on commit graph, but messes up line characters
+
+# Settings controlling how content is read from Git
+set main-options = --all
+set diff-options = --show-signature
+set log-options = --show-signature
