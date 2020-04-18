@@ -2,8 +2,7 @@
 
 ## Download the Latest Package
 
-1. Visit the Maven downloads page to find the latest package version number
-  - https://maven.apache.org/download.cgi
+1. Visit the Maven downloads page to find the latest package version number ([https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi))
 2. Download the tarball of the latest version at the prompt using `wget`, substituting the version number for `${VER}`
   ```bash
   > wget http://www-eu.apache.org/dist/maven/maven-3/${VER}/binaries/apache-maven-${VER}-bin.tar.gz
