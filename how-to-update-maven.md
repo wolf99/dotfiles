@@ -14,9 +14,9 @@
     wget http://www-eu.apache.org/dist/maven/maven-3/${VER}/binaries/apache-maven-${VER}-bin.tar.gz
     ```
 3. Extract the downloaded tarball
-  ```bash
-  tar xvf apache-maven-${VER}-bin.tar.gz
-  ```
+    ```bash
+    tar xvf apache-maven-${VER}-bin.tar.gz
+    ```
 
 ## Install
 
