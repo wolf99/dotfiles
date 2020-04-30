@@ -20,7 +20,7 @@
 
 ## Install
 
-4. Move the extracted directory to `/opt`
+4. Move the extracted directory to `/opt/maven/`
   ```bash
   sudo mv apache-maven-${VER} /opt/maven/
   ```
