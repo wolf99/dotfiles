@@ -1,10 +1,5 @@
 $include /etc/inputrc
 
-#### DON'T USE THIS FILE ####
-# WSL doesnt seem to like using .inputrc
-# The same settigns are made in the .bashrc anyway
-#############################
-
 # better tab completion
 set show-all-if-ambiguous on
 set completion-ignore-case on
