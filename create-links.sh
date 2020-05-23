@@ -15,7 +15,6 @@
 # ```bash
 # ./create-links.sh wolf99
 # ```
-#
 
 ln -s /mnt/c/Users/"$1"/OneDrive/Documents/development dev
 ln -s /mnt/c/Users/"$1"/git git
