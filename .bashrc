@@ -123,14 +123,3 @@ fi
 if [ -f ~/.config/exercism/exercism_completion.bash ]; then
   source ~/.config/exercism/exercism_completion.bash
 fi
-
-## better tab completion
-bind "set show-all-if-ambiguous on"
-bind "set completion-ignore-case on"
-
-## disable bell
-bind "set bell-style none"
-
-# make tab completion treat links as directories
-# i.e. adds trailing slash when <tab>-ing
-bind "set mark-symlinked-directories on"
