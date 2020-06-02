@@ -22,6 +22,7 @@
 
 4. Move the extracted directory to `/opt/maven/`
     ```bash
+    sudo mkdir /opt/maven
     sudo mv apache-maven-${VER} /opt/maven/
     ```
 5. Setup environment variables to load Maven when the shell starts
