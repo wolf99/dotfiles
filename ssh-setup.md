@@ -46,5 +46,5 @@ For information on the different options, see: [StackOverflow: run ssh add autom
 [add-key]: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
 [validate-passphrase]: https://stackoverflow.com/questions/4411457/how-do-i-verify-check-test-validate-my-ssh-passphrase
 [ssh-ident]: https://github.com/ccontavalli/ssh-ident
-[agent-scipt]: https://help.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows
+[agent-script]: https://help.github.com/en/github/authenticating-to-github/working-with-ssh-key-passphrases#auto-launching-ssh-agent-on-git-for-windows
 [auto-ssh-add]: https://unix.stackexchange.com/questions/90853/how-can-i-run-ssh-add-automatically-without-a-password-prompt/90869#90869
