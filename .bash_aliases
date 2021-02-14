@@ -25,3 +25,4 @@ function take() {
 	mkdir -p $@ && cd ${@:$#}
 }
 
+alias clip="clip.exe"
