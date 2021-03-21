@@ -8,7 +8,7 @@
 
 1. Clone this repository
 2. Copy the dotfiles to your home directory (be careful not to copy the `.git` directory)
-3. Add the correct `excludesFiles` path on to line #8 of [.gitconfig][.gitconfig]
+3. Add the missing details in [.gitconfig][.gitconfig], the `signingkey` will need to wait until after step 6.2
 4. Make the `create-links.sh` script executable `~$ chmod +x ./dotfiles/create-links.sh`
 5. From your home directory, run `~$ ./dotfiles/create-links.sh <username>`
 6. Optionally:
