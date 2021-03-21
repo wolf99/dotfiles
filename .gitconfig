@@ -1,11 +1,12 @@
 [user]
-	email = wol99@users.noreply.github.com
-	name = wolf99
-	signingkey = 1DE3C614650CA6A7
+        # Update and uncomment the following lines
+#	email = {public GitHub email}
+#	name = {GitHub username}
+#	signingkey = {GPG signing key for use with GitHub}
 [core]
 	editor = vim
 	# To use the following line, correct the path and uncomment.
-#	excludesFile = /mnt/c/Users/<USERNAME>/.gitignore
+#	excludesFile = /mnt/c/Users/{USERNAME}/.gitignore
 	pager = diff-so-fancy | less --tabs=4 -RFX
 [commit]
 	gpgsign = true
