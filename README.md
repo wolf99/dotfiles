@@ -11,9 +11,11 @@
 3. Make the `create-links.sh` script executable `~$ chmod +x ./dotfiles/create-links.sh`
 4. From your home directory, run `~$ ./dotfiles/create-links.sh <username>`
 5. Optionally:
-   1. Follow the steps in [gpg-setup.md].
-   2. Follow the steps in [how-to-update-maven.md].
+   1. Follow the steps in [ssh-setup.md].
+   2. Follow the steps in [gpg-setup.md].
+   3. Follow the steps in [how-to-update-maven.md].
 
+[ssh-setup.md]: ./ssh-setup.md
 [gpg-setup.md]: ./gpg-setup.md
 [how-to-update-maven.md]: ./how-to-update-maven.md
 
