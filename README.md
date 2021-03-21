@@ -8,13 +8,15 @@
 
 1. Clone this repository
 2. Copy the dotfiles to your home directory (be careful not to copy the `.git` directory)
-3. Make the `create-links.sh` script executable `~$ chmod +x ./dotfiles/create-links.sh`
-4. From your home directory, run `~$ ./dotfiles/create-links.sh <username>`
-5. Optionally:
+3. Add the correct `excludesFiles` path on to line #8 of [.gitconfig][.gitconfig]
+4. Make the `create-links.sh` script executable `~$ chmod +x ./dotfiles/create-links.sh`
+5. From your home directory, run `~$ ./dotfiles/create-links.sh <username>`
+6. Optionally:
    1. Follow the steps in [ssh-setup.md].
    2. Follow the steps in [gpg-setup.md].
    3. Follow the steps in [how-to-update-maven.md].
 
+[.gitconfig]: ./.gitconfig
 [ssh-setup.md]: ./ssh-setup.md
 [gpg-setup.md]: ./gpg-setup.md
 [how-to-update-maven.md]: ./how-to-update-maven.md
