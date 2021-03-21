@@ -1,5 +1,7 @@
 # SSH Set Up
 
+Check GitHub links below first, for any updates to the process
+
 ## Create a New SSH Key
 
 Ref: [GitHub help: create key][create-key]
@@ -26,9 +28,8 @@ ssh-add
 
 ## Handling the Pass Phrase
 
-- I have been using [ssh-ident][ssh-ident] to manage this
-
-- GitHub have started [recommending][agent-script] a script for ssh-agent
+- I have been using the [GitHub recommended][agent-script] script for ssh-agent
+- Previously [ssh-ident][ssh-ident] was useful to manage this
 
 For information on the different options, see: [StackOverflow: run ssh add automatically][auto-ssh-add]
 
