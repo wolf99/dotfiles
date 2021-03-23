@@ -19,3 +19,4 @@
 ln -s /mnt/c/Users/"$1"/OneDrive/Documents/development dev
 ln -s /mnt/c/Users/"$1"/git git
 ln -s /mnt/c/Users/"$1"/OneDrive one
+ln -s /mnt/c/Users/"$1"/ "$1"
