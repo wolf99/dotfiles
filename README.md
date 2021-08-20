@@ -11,7 +11,7 @@
 3. Add the missing details in [.gitconfig][.gitconfig], the `signingkey` will need to wait until after step 6.2
 4. Make the `create-links.sh` script executable `~$ chmod +x ./dotfiles/create-links.sh`
 5. From your home directory, run `~$ ./dotfiles/create-links.sh <username>`
-6. Optionally:
+6. Optionally also do the following as needed:
    1. Follow the steps in [ssh-setup.md].
    2. Follow the steps in [gpg-setup.md].
    3. Follow the steps in [how-to-update-maven.md].
