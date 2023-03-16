@@ -7,13 +7,17 @@ Check GitHub links below first, for any updates to the process
 Ref: [GitHub help: create key][create-key]
 
 1. Check for existing SSH keys
+
     ```bash
     ls -al ~/.ssh
     ```
-2. Generate a new key if there is no suitable existing key
+
+2. Generate a new key if there is no suitable existing key. For Github SSH setup, use the email address from your GitHub account; something like 123456+username@users.noreply.github.com
+
     ```bash
-    ssh-keygen -t rsa -b 4096 -C "<your-email>"
+    ssh-keygen -t ed25519 -C "your_email@example.com"
     ```
+
 3. Add the key to your GitHub account: [GitHub help: add a key][add-key]
 
 ## Test Pass Phrase
@@ -36,12 +40,16 @@ For information on the different options, see: [StackOverflow: run ssh add autom
 ### Setting Up ssh-ident
 
 1. Get the script from GitHub (following assumes `--output-document` path directory is on the PATH)
+
     ```bash
     wget --output-document=~/.local/bin/ssh-ident https://raw.githubusercontent.com/ccontavalli/ssh-ident/master/ssh-ident
     ```
+
 2. Link it in place of `ssh`
+
     ```bash
     ln -s ~/.local/bin/ssh-ident ~/.local/bin/ssh
+    ```
 
 [create-key]: https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 [add-key]: https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account
