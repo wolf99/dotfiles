@@ -117,10 +117,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# personal additions
+# Personal additions
 
 ## bash completion for exercism
 if [ -f ~/.config/exercism/exercism_completion.bash ]; then
   source ~/.config/exercism/exercism_completion.bash
 fi
-

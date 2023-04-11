@@ -10,4 +10,3 @@ set mark-symlinked-directories on
 
 # disable bell
 set bell-style none
-

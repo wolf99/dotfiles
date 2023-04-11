@@ -3,9 +3,8 @@ set history save on
 
 define qquit
     set confirm off
-    quit
+    qquit
 end
 document qquit
-Quit without asking for confirmtion
+Quit without asking for confirmation
 end
-

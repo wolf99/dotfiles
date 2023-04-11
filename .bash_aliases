@@ -9,12 +9,16 @@ alias weeknumber="date +%V"
 alias tiga="tig --all"
 
 # some exa aliases
-alias exa="exa-linux-x86_64"
+alias exa="exa"
 alias es="exa"
 alias el="exa --long --group --header --sort=type --icons"
 alias ea="exa --all --long --group --header --sort=type --icons"
 alias et="exa --all --long --group --header --tree --level=2 --sort=type"
 alias eg="exa --all --long --group --header --git --sort=type --icons"
+
+# use bat instead of cat
+# requires bat: https://github.com/sharkdp/bat
+alias cat="batcat"
 
 # make python 3 the default if it is installed
 ## Use ~/bin/env_python3 instead as it works for the path also
